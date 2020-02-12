@@ -1,0 +1,26 @@
+{
+  "name": "mqtt-prototype",
+  "version": "0.0.1",
+  "description": "Light control prototype script",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node dist/main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vortex375/mqtt-prototype.git"
+  },
+  "author": "Benjamin Schmitz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vortex375/mqtt-prototype/issues"
+  },
+  "homepage": "https://github.com/Vortex375/mqtt-prototype#readme",
+  "dependencies": {
+    "mqtt": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.1",
+    "typescript": "^3.7.5"
+  }
+}
