@@ -10,11 +10,15 @@ const COLORS = [
   { color_temp_percent: 50 },
   { color_temp_percent: 0 },
   { color: { r: 255, g: 147, b:  41 } }, /* candle */
+  { color: { r: 255, g: 244, b: 229 } }, /* warm white */
+  { color: { r: 255, g: 255, b: 251 } }, /* high noon sun */
   { color: { r: 255, g: 117, b: 107 } }, /* aprikose */
   { color: { r: 255, g: 216, b:  77 } }, /* lemon */
-  { color: { r: 191, g: 102, b: 255 } }, /* flieder */
   { color: { r: 255, g:  18, b:  65 } }, /* grapefruit */
   { color: { r:  97, g: 255, b: 121 } }, /* gloom */
+  { color: { r: 108, g: 148, b: 122 } }, /* green/gray */
+  { color: { r: 191, g: 102, b: 255 } }, /* flieder */
+  { color: { r:  64, g: 156, b: 255 } } /* blue sky */
 
 ];
 
