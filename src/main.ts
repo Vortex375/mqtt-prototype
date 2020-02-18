@@ -96,6 +96,11 @@ function handleRemote(message: any) {
       setLight(COLORS[colorIndex]);
       break;
     }
+    case 'arrow_left_hold': {
+      colorIndex = 0;
+      setLight(COLORS[colorIndex]);
+      break;
+    }
   }
 }
 
